@@ -7,40 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF180574251996E9004A80BE /* URLFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF180573251996E9004A80BE /* URLFile.swift */; };
+		AF180575251996E9004A80BE /* URLFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF180573251996E9004A80BE /* URLFile.swift */; };
+		AF180590251A069C004A80BE /* HTTPURLResponse+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18058F251A069C004A80BE /* HTTPURLResponse+.swift */; };
+		AF180591251A069C004A80BE /* HTTPURLResponse+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18058F251A069C004A80BE /* HTTPURLResponse+.swift */; };
+		AF1805A2251AEE1E004A80BE /* URLRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1805A1251AEE1E004A80BE /* URLRequest+.swift */; };
+		AF1805A3251AEE1E004A80BE /* URLRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1805A1251AEE1E004A80BE /* URLRequest+.swift */; };
+		AF1805A7251AEEA9004A80BE /* AVPlayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1805A6251AEEA9004A80BE /* AVPlayer+.swift */; };
+		AF1805A8251AEEA9004A80BE /* AVPlayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1805A6251AEEA9004A80BE /* AVPlayer+.swift */; };
 		AF2B191C25132A4C00C045E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191B25132A4C00C045E2 /* AppDelegate.swift */; };
-		AF2B191E25132A4C00C045E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191D25132A4C00C045E2 /* GameViewController.swift */; };
+		AF2B191E25132A4C00C045E2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191D25132A4C00C045E2 /* PlayerViewController.swift */; };
 		AF2B192125132A4C00C045E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B191F25132A4C00C045E2 /* Main.storyboard */; };
 		AF2B192425132A4C00C045E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B192225132A4C00C045E2 /* LaunchScreen.storyboard */; };
 		AF2B192D25132A4C00C045E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B192C25132A4C00C045E2 /* AppDelegate.swift */; };
-		AF2B192F25132A4C00C045E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B192E25132A4C00C045E2 /* GameViewController.swift */; };
+		AF2B192F25132A4C00C045E2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B192E25132A4C00C045E2 /* PlayerViewController.swift */; };
 		AF2B193225132A4C00C045E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B193025132A4C00C045E2 /* Main.storyboard */; };
-		AF2B193525132A4C00C045E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191025132A4900C045E2 /* Shaders.metal */; };
-		AF2B193625132A4C00C045E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191025132A4900C045E2 /* Shaders.metal */; };
-		AF2B193725132A4C00C045E2 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191125132A4900C045E2 /* Renderer.swift */; };
-		AF2B193825132A4C00C045E2 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B191125132A4900C045E2 /* Renderer.swift */; };
-		AF2B193925132A4C00C045E2 /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = AF2B191225132A4900C045E2 /* ShaderTypes.h */; };
-		AF2B193A25132A4C00C045E2 /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = AF2B191225132A4900C045E2 /* ShaderTypes.h */; };
 		AF2B193B25132A4C00C045E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2B191325132A4C00C045E2 /* Assets.xcassets */; };
 		AF2B193C25132A4C00C045E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2B191325132A4C00C045E2 /* Assets.xcassets */; };
+		AFB8A89A2513565D00994805 /* URLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8A8992513565D00994805 /* URLCache.swift */; };
+		AFB8A89B2513565D00994805 /* URLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8A8992513565D00994805 /* URLCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF2B191025132A4900C045E2 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		AF2B191125132A4900C045E2 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		AF2B191225132A4900C045E2 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		AF180573251996E9004A80BE /* URLFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFile.swift; sourceTree = "<group>"; };
+		AF18058F251A069C004A80BE /* HTTPURLResponse+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+.swift"; sourceTree = "<group>"; };
+		AF1805A1251AEE1E004A80BE /* URLRequest+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+.swift"; sourceTree = "<group>"; };
+		AF1805A6251AEEA9004A80BE /* AVPlayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+.swift"; sourceTree = "<group>"; };
 		AF2B191325132A4C00C045E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2B191825132A4C00C045E2 /* AVURLCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVURLCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2B191B25132A4C00C045E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF2B191D25132A4C00C045E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF2B191D25132A4C00C045E2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		AF2B192025132A4C00C045E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF2B192325132A4C00C045E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2B192525132A4C00C045E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2B192A25132A4C00C045E2 /* AVURLCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVURLCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2B192C25132A4C00C045E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF2B192E25132A4C00C045E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF2B192E25132A4C00C045E2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		AF2B193125132A4C00C045E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF2B193325132A4C00C045E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2B193425132A4C00C045E2 /* AVURLCache_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVURLCache_macOS.entitlements; sourceTree = "<group>"; };
+		AFB8A8992513565D00994805 /* URLCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +74,17 @@
 				AF2B191A25132A4C00C045E2 /* AVURLCache iOS */,
 				AF2B192B25132A4C00C045E2 /* AVURLCache macOS */,
 				AF2B191925132A4C00C045E2 /* Products */,
+				AF80F38125134FBE007E3EF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AF2B190F25132A4900C045E2 /* AVURLCache Shared */ = {
 			isa = PBXGroup;
 			children = (
-				AF2B191025132A4900C045E2 /* Shaders.metal */,
-				AF2B191125132A4900C045E2 /* Renderer.swift */,
-				AF2B191225132A4900C045E2 /* ShaderTypes.h */,
+				AF98D07625136F24003C5BA7 /* Extension */,
 				AF2B191325132A4C00C045E2 /* Assets.xcassets */,
+				AFB8A8992513565D00994805 /* URLCache.swift */,
+				AF180573251996E9004A80BE /* URLFile.swift */,
 			);
 			path = "AVURLCache Shared";
 			sourceTree = "<group>";
@@ -95,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AF2B191B25132A4C00C045E2 /* AppDelegate.swift */,
-				AF2B191D25132A4C00C045E2 /* GameViewController.swift */,
+				AF2B191D25132A4C00C045E2 /* PlayerViewController.swift */,
 				AF2B191F25132A4C00C045E2 /* Main.storyboard */,
 				AF2B192225132A4C00C045E2 /* LaunchScreen.storyboard */,
 				AF2B192525132A4C00C045E2 /* Info.plist */,
@@ -107,12 +114,29 @@
 			isa = PBXGroup;
 			children = (
 				AF2B192C25132A4C00C045E2 /* AppDelegate.swift */,
-				AF2B192E25132A4C00C045E2 /* GameViewController.swift */,
+				AF2B192E25132A4C00C045E2 /* PlayerViewController.swift */,
 				AF2B193025132A4C00C045E2 /* Main.storyboard */,
 				AF2B193325132A4C00C045E2 /* Info.plist */,
 				AF2B193425132A4C00C045E2 /* AVURLCache_macOS.entitlements */,
 			);
 			path = "AVURLCache macOS";
+			sourceTree = "<group>";
+		};
+		AF80F38125134FBE007E3EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF98D07625136F24003C5BA7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF18058F251A069C004A80BE /* HTTPURLResponse+.swift */,
+				AF1805A1251AEE1E004A80BE /* URLRequest+.swift */,
+				AF1805A6251AEEA9004A80BE /* AVPlayer+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +155,8 @@
 			dependencies = (
 			);
 			name = "AVURLCache iOS";
+			packageProductDependencies = (
+			);
 			productName = "AVURLCache iOS";
 			productReference = AF2B191825132A4C00C045E2 /* AVURLCache.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +174,8 @@
 			dependencies = (
 			);
 			name = "AVURLCache macOS";
+			packageProductDependencies = (
+			);
 			productName = "AVURLCache macOS";
 			productReference = AF2B192A25132A4C00C045E2 /* AVURLCache.app */;
 			productType = "com.apple.product-type.application";
@@ -178,6 +206,8 @@
 				Base,
 			);
 			mainGroup = AF2B190A25132A4900C045E2;
+			packageReferences = (
+			);
 			productRefGroup = AF2B191925132A4C00C045E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2B193925132A4C00C045E2 /* ShaderTypes.h in Resources */,
 				AF2B192125132A4C00C045E2 /* Main.storyboard in Resources */,
 				AF2B193B25132A4C00C045E2 /* Assets.xcassets in Resources */,
 				AF2B192425132A4C00C045E2 /* LaunchScreen.storyboard in Resources */,
@@ -206,7 +235,6 @@
 			files = (
 				AF2B193225132A4C00C045E2 /* Main.storyboard in Resources */,
 				AF2B193C25132A4C00C045E2 /* Assets.xcassets in Resources */,
-				AF2B193A25132A4C00C045E2 /* ShaderTypes.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2B193725132A4C00C045E2 /* Renderer.swift in Sources */,
-				AF2B193525132A4C00C045E2 /* Shaders.metal in Sources */,
-				AF2B191E25132A4C00C045E2 /* GameViewController.swift in Sources */,
+				AF1805A7251AEEA9004A80BE /* AVPlayer+.swift in Sources */,
+				AF2B191E25132A4C00C045E2 /* PlayerViewController.swift in Sources */,
+				AFB8A89A2513565D00994805 /* URLCache.swift in Sources */,
 				AF2B191C25132A4C00C045E2 /* AppDelegate.swift in Sources */,
+				AF180590251A069C004A80BE /* HTTPURLResponse+.swift in Sources */,
+				AF1805A2251AEE1E004A80BE /* URLRequest+.swift in Sources */,
+				AF180574251996E9004A80BE /* URLFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2B193825132A4C00C045E2 /* Renderer.swift in Sources */,
-				AF2B193625132A4C00C045E2 /* Shaders.metal in Sources */,
-				AF2B192F25132A4C00C045E2 /* GameViewController.swift in Sources */,
+				AF1805A8251AEEA9004A80BE /* AVPlayer+.swift in Sources */,
+				AF2B192F25132A4C00C045E2 /* PlayerViewController.swift in Sources */,
+				AFB8A89B2513565D00994805 /* URLCache.swift in Sources */,
 				AF2B192D25132A4C00C045E2 /* AppDelegate.swift in Sources */,
+				AF180591251A069C004A80BE /* HTTPURLResponse+.swift in Sources */,
+				AF1805A3251AEE1E004A80BE /* URLRequest+.swift in Sources */,
+				AF180575251996E9004A80BE /* URLFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AVURLCache iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,7 +425,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.yycking.AVURLCache;
 				PRODUCT_NAME = AVURLCache;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "AVURLCache Shared/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,7 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AVURLCache iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,7 +445,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.yycking.AVURLCache;
 				PRODUCT_NAME = AVURLCache;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "AVURLCache Shared/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -432,11 +464,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.yycking.AVURLCache;
 				PRODUCT_NAME = AVURLCache;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "AVURLCache Shared/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -454,11 +485,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.yycking.AVURLCache;
 				PRODUCT_NAME = AVURLCache;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "AVURLCache Shared/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
